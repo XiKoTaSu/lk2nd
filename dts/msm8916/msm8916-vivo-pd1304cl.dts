@@ -1,5 +1,7 @@
 // SPDX-License-Identifier: BSD-3-Clause
 
+/dts-v1/;
+
 #include <skeleton.dtsi>
 
 / {
@@ -11,7 +13,7 @@
 	lk2nd,match-panel;
 
 	panel {
-		compatible = "vivo,pd1304cl-panel", "lk2nd,panel";
+		compatible = "vivo,pd1304cl-panel";
 
 		qcom,mdss_dsi_nt35510s_fwvga_video{
 			compatible = "vivo,nt35510s";
