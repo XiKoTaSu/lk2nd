@@ -22,4 +22,5 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: lk
-          path: build-lk2nd-${{ inputs.project }}/* retention-days: 7
+          path: build-lk2nd-${{ inputs.project }}/*
+          retention-days: 7
