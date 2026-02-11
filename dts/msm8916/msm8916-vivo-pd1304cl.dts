@@ -5,13 +5,10 @@
 / {
 	qcom,msm-id = <0xce 0x00 0xf8 0x00 0xf9 0x00 0xfa 0x00>;
 	qcom,board-id = <0x01 0x01>;
-};
 
-&lk2nd {
 	model = "Vivo Y13L (2015)";
-	compatible = "vivo,pd1304cl";
-
-	lk2nd,dtb-files = "msm8916-vivo-pd1304cl";
+	compatible = "vivo,pd1304cl", "qcom,msm8916", "lk2nd,device";
+	lk2nd,match-panel;
 
 	panel {
 		compatible = "vivo,pd1304cl-panel", "lk2nd,panel";
