@@ -1,7 +1,6 @@
 // SPDX-License-Identifier: BSD-3-Clause
 
-#include <skeleton64.dtsi>
-#include <lk2nd.dtsi>
+#include <skeleton.dtsi>
 
 / {
 	qcom,msm-id = <QCOM_ID_MSM8916 0>;
