@@ -13,6 +13,7 @@
 #include "lk_panel_ili9881c_hd_video.h"
 #include "lk_panel_innolux_qhd_video.h"
 #include "lk_panel_nt35510s_fwvga_cmd.h"
+#include "lk_panel_oppo15018samsung_s6e3fa3_1080p_cmd.h"
 #include "lk_panel_r61308_720p_video.h"
 #include "lk_panel_r69431_720p_video.h"
 

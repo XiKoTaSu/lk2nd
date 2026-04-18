@@ -1,0 +1,24 @@
+// SPDX-License-Identifier: BSD-3-Clause
+
+#include <skeleton64.dtsi>
+#include <lk2nd.dtsi>
+
+/ {
+	qcom,msm-id = <QCOM_ID_MSM8939 0>;
+	qcom,board-id = <0x08 0x00 0x3aaa>;
+};
+
+&lk2nd {
+	model = "OPPO R7Plusm";
+	compatible = "oppo,15018";
+
+	lk2nd,dtb-files = "msm8939-oppo-15018";
+
+	panel {
+		compatible = "oppo,15018-panel", "lk2nd,panel";
+
+		qcom,mdss_dsi_oppo15018samsung_s6e3fa3_1080p_cmd {
+			compatible = "oppo,oppo15018samsung_s6e3fa3_1080p_cmd";
+		};
+	};
+};
