@@ -13,15 +13,17 @@ jobs:
       artifacts: |
         build-*/lk.bin
         build-*/lk2nd.img
+        
   lk2nd:
     needs: lk2nd-msm8916
     uses: ./.github/workflows/lk2nd-matrix.yml
     with:
-      project: lk2nd
+      project: lk1st
       exclude: msm8916  # Already built separately above
       artifacts: |
         build-*/lk.bin
         build-*/lk2nd.img
+        build-*/*.mbn
 
   lk1st:
     needs: lk2nd
