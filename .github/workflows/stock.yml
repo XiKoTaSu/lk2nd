@@ -23,6 +23,7 @@ jobs:
       - name: Build (default)
         run: git clean -dxf && make -j$(nproc) TOOLCHAIN_PREFIX=arm-none-eabi-
              ${{ inputs.options }} ${{ inputs.platform }}
+             LK2ND_BUNDLE_DTB=msm8916-vivo-pd1304.dtb LK2ND_DISPLAY=nt35510s_fwvga_cmd
       - name: Build (signed kernel)
         run: git clean -dxf && make -j$(nproc) TOOLCHAIN_PREFIX=arm-none-eabi-
              ${{ inputs.options }} ${{ inputs.platform }}
