@@ -35,12 +35,12 @@
 
 		qcom,mdss_dsi_nt35510s_fwvga_video{
 			compatible = "mdss,nt35510s-video";
-			touchscreen-compatible = "edt,edt-ft5306";
+			touchscreen-compatible = "goodix,gt928";
 		};
 
 		qcom,mdss_dsi_nt35510s_fwvga_cmd {
 			compatible = "mdss,nt35510s";
-			touchscreen-compatible = "edt,edt-ft5306";
+			touchscreen-compatible = "goodix,gt928";
 		};
 	};
 	
