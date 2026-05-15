@@ -8,7 +8,7 @@ jobs:
     name: lk2nd
     uses: ./.github/workflows/lk2nd.yml
     with:
-      project: lk1st
+      project: lk2nd
       platform: msm8916
       artifacts: |
         build-*/lk.bin
@@ -19,8 +19,7 @@ jobs:
     needs: lk2nd-msm8916
     uses: ./.github/workflows/lk2nd-matrix.yml
     with:
-      project: lk1st
-      exclude: msm8916  # Already built separately above
+      project: lk1st  # Already built separately above
       artifacts: |
         build-*/lk.bin
         build-*/lk2nd.img
