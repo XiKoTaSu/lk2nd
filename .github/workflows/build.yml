@@ -19,14 +19,14 @@ jobs:
     needs: lk2nd-msm8916
     uses: ./.github/workflows/lk2nd-matrix.yml
     with:
-      project: lk1st  # Already built separately above
+      project: lk2nd # Already built separately above
       artifacts: |
         build-*/lk.bin
         build-*/lk2nd.img
         build-*/*.mbn
 
   lk1st:
-    needs: lk2nd
+    needs: lk2nd-msm8916
     uses: ./.github/workflows/lk2nd-matrix.yml
     with:
       project: lk1st
