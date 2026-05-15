@@ -50,12 +50,13 @@
 - Samsung Galaxy J5 (2016) - SM-J5108, SM-J510F, SM-J510FN, SM-J510GN, SM-J510H, SM-J510L, SM-J510MN, SM-J510UN
 - Samsung Galaxy J7 (2015) - SM-J7008, SM-J700P
 - Samsung Galaxy On7 (2015) - SM-G6000, SM-G600FY, SM-G600S
+- Samsung Galaxy S4 - GT-I9505
 - Samsung Galaxy S4 Mini Value Edition - GT-I9195I
 - Samsung Galaxy Tab 4 10.1 (2015) - SM-T533
 - Samsung Galaxy Tab A 8.0 (2015) - SM-T350, SM-T355, SM-T355Y, SM-T357W
 - Samsung Galaxy Tab A 9.7 (2015) - SM-T550, SM-T555
 - Samsung Galaxy Tab E 9.6 WiFi (2015) - SM-T560NU
-- Vivo Y13L (2015) - pd1304cl
+- Vivo Y13L / Y613F / Y23L (2015) - PD1304CL , PD1304CF , PD1419L (use lk1st quirky - see comment in `lk2nd/device/dts/msm8916/msm8916-vivo-pd1304.dts`)
 - Vivo Y21L
 - Vivo Y31 (2015) - pd1505
 - Vivo Y31A (2016) - pd1505f
@@ -83,6 +84,7 @@
 - Nokia 8000 4G
 - Nokia 8110 4G
 - ZTE N818S (sapphire)
+- Lenovo Tab e10 (TB-X104F)
 
 ### lk2nd-msm8952
 
@@ -149,6 +151,7 @@
 - Samsung Galaxy J8 LTE
 - Samsung Tab A2 XL WIFI
 - Vsmart Joy 3 (casuarina) (requires flashing [minimal DTBO](#minimal-dtb-overlay)) 
+- Xiaomi Mi 5X (tiffany)
 - Xiaomi Mi A1 (tissot)
 - Xiaomi Mi A2 Lite (daisy)
 - Xiaomi Mi Max 2 (oxygen)
@@ -190,7 +193,7 @@
 - Motorola Moto G 2014 - titan
 - Motorola Moto G 2014 LTE - thea
 - Samsung Galaxy Grand 2 - SM-G7102
-- Samsung Galaxy Tab 4 10.1 (2014) - SM-T530, SM-T532, SM-T535
+- Samsung Galaxy Tab 4 10.1 (2014) - SM-T530, SM-T531, SM-T532, SM-T535
 - Samsung Galaxy Tab 4 8.0 (2014) - SM-T330, SM-T330NU, SM-T331
 - Sony Xperia M2 - eagle (quirky - see comment in `lk2nd/device/dts/msm8226/msm8926-v2-720p-mtp.dts`)
 
