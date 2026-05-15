@@ -8,11 +8,12 @@ jobs:
     name: lk2nd
     uses: ./.github/workflows/lk2nd.yml
     with:
-      project: lk2nd
+      project: lk1st
       platform: msm8916
       artifacts: |
         build-*/lk.bin
         build-*/lk2nd.img
+        build-*/*.mbn
         
   lk2nd:
     needs: lk2nd-msm8916
